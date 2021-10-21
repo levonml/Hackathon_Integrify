@@ -3,9 +3,9 @@ import { useState, useEffect } from 'react';
 export default function useSelect(name) {
   let baseUrl = 'https://open-api.myhelsinki.fi/v1/';
   if (name === 'activities') {
-    baseUrl = `${baseUrl}${name}/?limit=50`;
+    baseUrl = `${baseUrl}${name}/?limit=55`;
   } else {
-    baseUrl = `${baseUrl}${name}/?limit=50&start=500`;
+    baseUrl = `${baseUrl}${name}/?language_filter=en&?limit=55&start=500`;
   }
 
   const [data, setData] = useState();

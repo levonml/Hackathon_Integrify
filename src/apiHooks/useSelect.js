@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react";
 
 export default function useSelect(name) {
-	let baseUrl =
-		"https://cors-anywhere.herokuapp.com/https://open-api.myhelsinki.fi/v1/";
+	let baseUrl = "/v1/";
 	if (name === "activities") {
 		baseUrl = `${baseUrl}${name}/?limit=55`;
 	} else {

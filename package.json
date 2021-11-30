@@ -38,7 +38,7 @@
 			"last 1 safari version"
 		]
 	},
-	"proxy": "https://relaxed-keller-4819f2.netlify.app/",
+	"proxy": "https://open-api.myhelsinki.fi",
 	"devDependencies": {
 		"autoprefixer": "^9.8.8",
 		"postcss": "^7.0.39",
